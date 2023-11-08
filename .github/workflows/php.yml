@@ -14,11 +14,11 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: alpine:3.18
-      steps:
-        - name: Install dependencies
-          run: composer install --prefer-dist --no-progress
-        - name: Run tests
-          run: composer run-script test
+    steps:
+    - name: Install dependencies
+      run: composer install --prefer-dist --no-progress
+    - name: Run tests
+      run: composer run-script test
   build:
     runs-on: ubuntu-latest
 
