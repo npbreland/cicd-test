@@ -1,0 +1,19 @@
+{
+    "name": "npbreland/cicd-test",
+    "autoload": {
+        "psr-4": {
+            "Npbreland\\CicdTest\\": "src/",
+            "Npbreland\\CicdTest\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nick Breland",
+            "email": "npbreland@tutanota.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^10"
+    }
+}
