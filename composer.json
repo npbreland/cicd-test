@@ -1,5 +1,6 @@
 {
     "name": "npbreland/cicd-test",
+    "description": "A test package for CI/CD",
     "autoload": {
         "psr-4": {
             "Npbreland\\CicdTest\\": "src/",
